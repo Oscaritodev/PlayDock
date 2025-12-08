@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "7UXJjELJEb0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\apple\\Desktop\\New Launcher\\NewLauncher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\apple\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.0\\microsoft.net.illink.tasks.10.0.0.nupkg.sha512",
+    "C:\\Users\\apple\\.nuget\\packages\\system.drawing.common\\10.0.0\\system.drawing.common.10.0.0.nupkg.sha512",
+    "C:\\Users\\apple\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.0\\microsoft.netcore.app.runtime.win-x64.10.0.0.nupkg.sha512",
+    "C:\\Users\\apple\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.0\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.0.nupkg.sha512",
+    "C:\\Users\\apple\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.0\\microsoft.aspnetcore.app.runtime.win-x64.10.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Drawing.Common no se eliminará. Considere la posibilidad de quitar este paquete de las dependencias, ya que es probable que no sea necesario.",
+      "projectPath": "C:\\Users\\apple\\Desktop\\New Launcher\\NewLauncher.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\apple\\Desktop\\New Launcher\\NewLauncher.csproj",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        "net10.0-windows7.0"
+      ]
+    }
+  ]
+}

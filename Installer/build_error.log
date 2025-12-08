@@ -1,0 +1,11 @@
+  Determinando los proyectos que se van a restaurar...
+  Todos los proyectos están actualizados para la restauración.
+C:\Users\apple\Desktop\New Launcher\Installer\Program.cs(3,7): error CS0246: El nombre del tipo o del espacio de nombres 'WixSharp' no se encontró (¿falta una directiva using o una referencia de ensamblado?) [C:\Users\apple\Desktop\New Launcher\Installer\NewLauncher.Installer.csproj]
+
+ERROR al compilar.
+
+C:\Users\apple\Desktop\New Launcher\Installer\Program.cs(3,7): error CS0246: El nombre del tipo o del espacio de nombres 'WixSharp' no se encontró (¿falta una directiva using o una referencia de ensamblado?) [C:\Users\apple\Desktop\New Launcher\Installer\NewLauncher.Installer.csproj]
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:01.76

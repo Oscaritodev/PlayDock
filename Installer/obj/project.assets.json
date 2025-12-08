@@ -1,0 +1,165 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "WixSharp/1.14.2": {
+        "type": "package",
+        "dependencies": {
+          "WixSharp.bin": "1.14.2"
+        },
+        "build": {
+          "build/WixSharp.targets": {}
+        }
+      },
+      "WixSharp.bin/1.14.2": {
+        "type": "package",
+        "build": {
+          "build/WixSharp.bin.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WixSharp/1.14.2": {
+      "sha512": "RNNN2+0kP3kkBSABpLlaPXM+7XI/NDAxzqq1AiyHmbQEVEabLpJD8zD+SmIrMFpX34RXj3C0FG18v4H0jkQ8nA==",
+      "type": "package",
+      "path": "wixsharp/1.14.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/WixSharp.targets",
+        "readme.txt",
+        "tools/Install.ps1",
+        "wixsharp.1.14.2.nupkg.sha512",
+        "wixsharp.nuspec"
+      ]
+    },
+    "WixSharp.bin/1.14.2": {
+      "sha512": "me5reMwnRLClaMmfYpvJitjbHBkuRulXeYoptSnBTtLOr9EHz9xZ0M8GnZTJ40bm5uq3LR0Xbm6idKlwDlS8FA==",
+      "type": "package",
+      "path": "wixsharp.bin/1.14.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/WixSharp.bin.targets",
+        "lib/BootstrapperCore.dll",
+        "lib/BootstrapperCore.xml",
+        "lib/Microsoft.Deployment.WindowsInstaller.dll",
+        "lib/Microsoft.Deployment.WindowsInstaller.xml",
+        "lib/WixSharp.Msi.dll",
+        "lib/WixSharp.Msi.xml",
+        "lib/WixSharp.UI.dll",
+        "lib/WixSharp.UI.xml",
+        "lib/WixSharp.dll",
+        "lib/WixSharp.xml",
+        "lib/nbsbuilder.exe",
+        "wixsharp.bin.1.14.2.nupkg.sha512",
+        "wixsharp.bin.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "WixSharp >= 1.14.2",
+      "WixSharp.bin >= 1.14.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\apple\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\apple\\Desktop\\New Launcher\\Installer\\NewLauncher.Installer.csproj",
+      "projectName": "NewLauncher.Installer",
+      "projectPath": "C:\\Users\\apple\\Desktop\\New Launcher\\Installer\\NewLauncher.Installer.csproj",
+      "packagesPath": "C:\\Users\\apple\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\apple\\Desktop\\New Launcher\\Installer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\apple\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "WixSharp": {
+            "target": "Package",
+            "version": "[1.14.2, )"
+          },
+          "WixSharp.bin": {
+            "target": "Package",
+            "version": "[1.14.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
