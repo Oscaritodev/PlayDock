@@ -1,0 +1,4 @@
+C:\Users\apple\Desktop\New Launcher\Installer\obj\Debug\net10.0\NewLauncher.Installer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\apple\Desktop\New Launcher\Installer\obj\Debug\net10.0\NewLauncher.Installer.AssemblyInfoInputs.cache
+C:\Users\apple\Desktop\New Launcher\Installer\obj\Debug\net10.0\NewLauncher.Installer.AssemblyInfo.cs
+C:\Users\apple\Desktop\New Launcher\Installer\obj\Debug\net10.0\NewLauncher.Installer.csproj.CoreCompileInputs.cache
